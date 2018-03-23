@@ -43,7 +43,7 @@ comment         = {comment1} | {comment2}
 %%
 
 /* REGRAS */
-{comment}               { System.out.println("Comentario"); }
+{comment}               { /* Ignorar comentário. */ }
 "System.out.println"    { System.out.println("Token System.out.println"); }
 "public"				{ System.out.println("Token public"); }
 "static"				{ System.out.println("Token static"); }

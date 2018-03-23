@@ -734,7 +734,7 @@ int qtdeID=0;
             }
           case 35: break;
           case 8: 
-            { System.out.println("Comentario");
+            { /* Ignorar comentário. */
             }
           case 36: break;
           case 9: 
